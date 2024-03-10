@@ -8,6 +8,7 @@ from core.settings.components import env
 
 _settings = (
     'components/base.py',
+    'components/cors_headers.py',
     'components/rest_framework.py',
     'components/{}.py'.format(env.get('DJANGO_SETTINGS_ENV', 'prod').lower()),
 )
