@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django api template"
+version = "0.1"
+description = "Django API Template - project for fast start django projects."
+authors = ["BRANYA <tbd2504@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
