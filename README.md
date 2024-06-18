@@ -25,6 +25,7 @@ Add needed your hosts to list django app allow you to enter on site
 by these hosts. It's `localhost [::1] 127.0.0.1 0.0.0.0` by default.
 * **DJANGO_SUPERUSER_EMAIL** - email of superuser for django admin site.
 It's `admin@admin.com` by default.
+- **DJANGO_SUPERUSER_USERNAME** - usernmae of superuser for django admin site.
 * **DJANGO_SUPERUSER_PASSWORD** - password of superuser for django admin site.
 It's `123` by default.
 
@@ -42,12 +43,13 @@ name of docker compose service for Postgres.
 DJANGO_SECRET_KEY=<secret key>
 DJANGO_ALLOWED_HOSTS='localhost [::1] 127.0.0.1 0.0.0.0'
 DJANGO_SUPERUSER_EMAIL=admin@admin.com
+DJANGO_SUPERUSER_USERNAME=admin
 DJANGO_SUPERUSER_PASSWORD=123
 
 POSTGRES_DB=postgres
 POSTGRES_USER=postgres
 POSTGRES_PASSWORD=postgres
-POSTGRES_HOST=<host>
+POSTGRES_HOST=db
 ```
 
 ***
